@@ -14,7 +14,7 @@ sessions_Router.use((req, res, next) => {
 
 
 sessions_Router.route('/').get((req, res) => {
-    const url = 'mongodb+srv://dbuser:BXdKmBa2B00W@cluster0.yg2yx.mongodb.net?retryWrites=true&w=majority';
+    const url = '';
     const dbName = 'globomantics';
 
     (async function mongo() {
@@ -36,7 +36,7 @@ sessions_Router.route('/').get((req, res) => {
 
 sessions_Router.route('/:id').get((req, res) => {
     const id = req.params.id;
-    const url = 'mongodb+srv://dbuser:BXdKmBa2B00W@cluster0.yg2yx.mongodb.net?retryWrites=true&w=majority';
+    const url = '';
     const dbName = 'globomantics';
 
     (async function mongo() {

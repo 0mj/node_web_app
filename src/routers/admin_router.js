@@ -5,7 +5,7 @@ const sessions = require('../data/sessions.json');
 const admin_router =express.Router();
 
 admin_router.route('/').get((req, res) => {
-    const url = 'mongodb+srv://dbuser:BXdKmBa2B00W@cluster0.yg2yx.mongodb.net?retryWrites=true&w=majority';
+    const url = '';
     const dbName = 'globomantics';
 
     (async function mongo(){

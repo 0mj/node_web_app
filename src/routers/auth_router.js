@@ -16,7 +16,7 @@ auth_router.route('/signUp').post((req, res) => {
     const { username, password } = req.body;
     // debug(req.body);
     
-    const url = 'mongodb+srv://dbuser:BXdKmBa2B00W@cluster0.yg2yx.mongodb.net?retryWrites=true&w=majority';
+    const url = '';
     const dbName = 'globomantics';
 
     (async function addUser() {
